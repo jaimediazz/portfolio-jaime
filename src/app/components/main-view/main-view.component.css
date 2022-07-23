@@ -1,0 +1,11 @@
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
