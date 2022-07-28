@@ -7,7 +7,8 @@ import { MainViewComponent } from './components/main-view/main-view.component';
 
 const routes: Routes = [
   { path: '', component: MainViewComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
