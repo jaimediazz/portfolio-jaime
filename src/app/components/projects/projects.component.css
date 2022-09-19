@@ -19,6 +19,7 @@ h1 {
 #projects {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 4rem;
     padding: 2rem;
     background-color: white;
