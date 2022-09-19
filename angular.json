@@ -5,10 +5,7 @@
   "projects": {
     "portfolio-jaime": {
       "i18n": {
-        "sourceLocale": {
-          "baseHref": "/",
-          "code": "en"
-        },
+        "sourceLocale": "en",
         "locales": {
           "es": "src/resources/locales/messages.es.xlf"
         }
