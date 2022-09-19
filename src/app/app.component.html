@@ -5,17 +5,25 @@
         <span style="font-family: 'Montserrat', sans-serif; font-weight: bold;">J</span>
       </div>
     </div>
-    <div id="navElements">
-      <button type="button">
+    <ul id="navElements">
+      <li class="nav-list-item">
         <a routerLink="/">Home</a>
-      </button> 
-      <button type="button">
+      </li> 
+      <li class="nav-list-item">
         <a routerLink="/projects">Projects</a>
-      </button>
-<!--       <button type="button">
+      </li>
+      <li class="nav-list-item nav-dropdown">
+        <a href="">Language</a>
+        <img src="../assets/icon-arrow-down.svg" alt="arrow down">
+        <div class="dropdown-menu">
+          <p>Spanish</p>
+          <p>English</p>
+        </div>
+      </li>
+      <!-- <li type="li">
         <a routerLink="/contact">Contact</a>
-      </button> -->
-    </div>
+      </li> -->
+    </ul>
   </nav>  
   <router-outlet></router-outlet>
 </div>

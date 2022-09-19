@@ -1,3 +1,10 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+/* LAYOUT */
+
 #app {
     position: fixed;
     top: 0;
@@ -14,6 +21,10 @@
     align-items: center;
     width: 80%;
     margin: 20px auto;
+}
+
+.navBar a {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #logo {
@@ -34,6 +45,38 @@
     text-align: center;
 }
 
+#navElements {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.nav-list-item {
+    margin-left: 1.5rem;
+}
+
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown a {
+    margin-right: .25rem;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px hsl(180, 8%, 52%);
+}
+
 button {
     background-color: transparent;
     font-family: 'Montserrat',  sans-serif;
@@ -43,8 +86,9 @@ button {
     border: none;
 }
 
-button:hover {
+#navElements a:hover {
     font-weight: bold;
+    cursor: pointer;
 }
 
 a {
