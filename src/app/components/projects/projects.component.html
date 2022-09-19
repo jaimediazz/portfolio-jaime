@@ -2,17 +2,10 @@
     <h1>Projects</h1>
     <div id="projects">
         <div id="carousel">
-            <div class="carousel-item" *ngFor="let slide of slides; let i = index">
-                <img 
-                    [src]="slide.img" 
-                    [alt]="slide.alt" 
-                    [ngStyle]="{'display': slideIndex === i ? 'block' : 'none'}">
-                <button id="prev" [ngStyle]="{'display': slideIndex === i ? 'block' : 'none'}" (click)="prev()">
-                    &#10094;
-                </button>
-                <button id="next" [ngStyle]="{'display': slideIndex === i ? 'block' : 'none'}" (click)="next()">
-                    &#10095;
-                </button>
+            <div class="carousel-item">
+                <img [src]="slides[slideIndex].img" [alt]="slides[slideIndex].alt">
+                <button id="prev" (click)="prev()">&#10094;</button>
+                <button id="next" (click)="next()">&#10095;</button>
             </div>
             <div id="dot-container">
                 <div 
