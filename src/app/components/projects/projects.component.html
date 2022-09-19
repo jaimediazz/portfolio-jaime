@@ -1,9 +1,9 @@
 <div class="container">
-    <h1>Projects</h1>
+    <h1 i18n>Projects</h1>
     <div id="projects">
         <div id="carousel">
             <div class="carousel-item">
-                <img [src]="slides[slideIndex].img" [alt]="slides[slideIndex].alt">
+                <img [src]="slides[slideIndex].img" [alt]="slides[slideIndex].alt" i18n-alt>
                 <button id="prev" (click)="prev()">&#10094;</button>
                 <button id="next" (click)="next()">&#10095;</button>
             </div>
@@ -17,8 +17,8 @@
             </div>
         </div>
         <div id="info">
-            <h3>Ip Tracker</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio exercitationem dolorum rerum amet ratione suscipit, numquam aperiam quo veritatis, natus eos velit esse cum magni hic. Voluptatem, accusamus magnam!</p>
+            <h3 i18n>Ip Tracker</h3>
+            <p i18n>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio exercitationem dolorum rerum amet ratione suscipit, numquam aperiam quo veritatis, natus eos velit esse cum magni hic. Voluptatem, accusamus magnam!</p>
             <p>Angular | Typescript</p>
         </div>
     </div>
