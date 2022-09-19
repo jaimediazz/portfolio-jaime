@@ -1,27 +1,51 @@
-#explanation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h1, p, button, label {
+    font-family: 'Montserrat', sans-serif;
 }
 
-#form {
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
+h1 {
     text-align: center;
 }
 
-p, label {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+.bold {
+    font-weight: bold;
 }
 
-input, textarea {
-    width: 100%;
+/* LAYOUT */
+
+#container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 3rem auto;    
 }
 
-form {
+#form-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 4rem;
+    padding: 2rem;
+    box-shadow: 0 0  20px hsl(180, 8%, 52%);
+}
+
+#title {
+    width: 30%;
+}
+
+#form {
     width: 60%;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;    
 }
 
 button {
