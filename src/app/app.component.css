@@ -4,44 +4,49 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #969292;
+    background-color: hsl(180, 52%, 96%);
     overflow-y: auto;
 }
 
 .navBar {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-right: 30px;
-    text-align: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+#circle {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 button {
     background-color: transparent;
-    font-weight: semibold;
-    color: #444;
+    font-family: 'Montserrat',  sans-serif;
     font-size: 1rem;
-    padding: 10px;
-    border: 2px solid #969292;
-    border-radius: .5rem;
     cursor: pointer;
-    transition: all 1s ease;
-    box-shadow: .5rem .5rem 1rem #6B6666,
-        -.5rem -.5rem 1rem #C1BDBD;
-    margin-left: 15px;
+    border: none;
 }
 
 button:hover {
-    box-shadow: .5rem .5rem 1rem #C1BDBD,
-        -.5rem -.5rem 1rem #6B6666;
-}
-
-button:active {
-    box-shadow: inset 2rem 2rem 1rem #C1BDBD,
-        inset -2rem -2rem 1rem #6B6666;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
     color: #000;
-    font-weight: bold;
 }

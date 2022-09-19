@@ -1,11 +1,18 @@
 <div id="app">
   <nav class="navBar">
-    <button type="button">
-      <a routerLink="/">Home</a>
-    </button> 
-    <button type="button">
-      <a routerLink="/contact">Contact</a>
-    </button> 
+    <div id="logo">
+      <div id="circle">
+        <span style="font-family: 'Montserrat', sans-serif; font-weight: bold;">J</span>
+      </div>
+    </div>
+    <div id="navElements">
+      <button type="button">
+        <a routerLink="/">Home</a>
+      </button> 
+      <button type="button">
+        <a routerLink="/contact">Contact</a>
+      </button>
+    </div>
   </nav>  
   <router-outlet></router-outlet>
 </div>
