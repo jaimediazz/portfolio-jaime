@@ -1,1 +1,32 @@
-<p>projects works!</p>
+<div class="container">
+    <h1>Projects</h1>
+    <div id="projects">
+        <div id="carousel">
+            <div class="carousel-item" *ngFor="let slide of slides; let i = index">
+                <img 
+                    [src]="slide.img" 
+                    [alt]="slide.alt" 
+                    [ngStyle]="{'display': slideIndex === i ? 'block' : 'none'}">
+                <button id="prev" [ngStyle]="{'display': slideIndex === i ? 'block' : 'none'}" (click)="prev()">
+                    &#10094;
+                </button>
+                <button id="next" [ngStyle]="{'display': slideIndex === i ? 'block' : 'none'}" (click)="next()">
+                    &#10095;
+                </button>
+            </div>
+            <div id="dot-container">
+                <div 
+                    *ngFor="let slide of slides; let i = index" 
+                    class="dot" 
+                    [ngClass]="slideIndex === i ? 'active' : ''"
+                    (click)="showSlide(i)">
+                </div>
+            </div>
+        </div>
+        <div id="info">
+            <h3>Ip Tracker</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio exercitationem dolorum rerum amet ratione suscipit, numquam aperiam quo veritatis, natus eos velit esse cum magni hic. Voluptatem, accusamus magnam!</p>
+            <p>Angular | Typescript</p>
+        </div>
+    </div>
+</div>

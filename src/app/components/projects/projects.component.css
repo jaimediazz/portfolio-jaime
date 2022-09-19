@@ -1,0 +1,85 @@
+img {
+    width: 100%;
+}
+
+h1, h3, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px hsl(180, 8%, 52%);
+}
+
+#carousel {
+    /* position: relative; */
+    width: 60%;
+}
+
+#info {
+    width: 35%;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+#prev {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: white;
+    border-color: hsl(180, 14%, 20%);
+    background-color: hsl(180, 14%, 20%);
+}
+
+#next {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: white;
+    border-color: hsl(180, 14%, 20%);
+    background-color: hsl(180, 14%, 20%);
+}
+
+#dot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 .3rem;
+    background-color: hsl(180, 8%, 52%);
+    border-radius: 50%;
+}
+
+.active {
+    width: 25px;
+    background-color: hsl(180, 14%, 20%);
+    border-radius: 10px;
+}

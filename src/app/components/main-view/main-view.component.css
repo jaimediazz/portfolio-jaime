@@ -2,22 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 #description {
     max-width: 1000px;
+    width: 80%;
     border: 2px solid #000;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 70px auto;
+    margin: 4rem auto;
     padding: 30px;
 }
 
 #footer {
     max-width: 1000px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
