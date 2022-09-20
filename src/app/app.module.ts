@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { MainViewComponent } from './components/main-view/main-view.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ResponsiveMenuComponent } from './components/responsive-menu/responsive-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainViewComponent,
     ContactComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ResponsiveMenuComponent
   ],
   imports: [
     BrowserModule,
