@@ -8,19 +8,19 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   slides: any[] = [
     {
-      'img': '../../../assets/ip-address-tracker.PNG',
+      'img': '/assets/ip-address-tracker.PNG',
       'alt': 'Ip Address Tracker'
     },
     {
-      'img': '../../../assets/remote-work.PNG',
+      'img': '/assets/remote-work.PNG',
       'alt': 'Remote Work'
     },
     {
-      'img': '../../../assets/job-listing.PNG',
+      'img': '/assets/job-listing.PNG',
       'alt': 'job-listing'
     },
     {
-      'img': '../../assets/TFT.png',
+      'img': '/assets/TFT.png',
       'alt': 'tft'
     }
   ];
