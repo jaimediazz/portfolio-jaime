@@ -146,14 +146,11 @@
         <source><x id="INTERPOLATION" equiv-text="{{ slides[slideIndex].title }}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">22</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7732534083352154984" datatype="html">
-        <source>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio exercitationem dolorum rerum amet ratione suscipit, numquam aperiam quo veritatis, natus eos velit esse cum magni hic. Voluptatem, accusamus magnam!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5290484294217156294" datatype="html">
@@ -164,12 +161,28 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4528489273776765293" datatype="html">
+        <source>This website allows you to introduce a IP address and see where it is located this device in a map. Also, the first time you enter, the application will place a marker on the map indicating where your public IP is coming from. To do this two APIs has been used, Leaflet for the map and IP GeoAPI by IPify to locate IP addresses.</source>
+        <target>Este sitio web le permite introducir una dirección IP y ver dónde se encuentra este dispositivo en un mapa. Además, la primera vez que entres, la aplicación colocará un marcador en el mapa indicando de dónde viene tu IP pública. Para ello se han utilizado dos APIs, Leaflet para el mapa e IP GeoAPI de IPify para localizar las direcciones IP.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2163353360097366252" datatype="html">
         <source>Remote Work</source>
         <target>Trabajo Remoto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7283575751804758071" datatype="html">
+        <source>Landing page of a fictitious company that bets on remote work to coordinate and carry out its functions from anywhere in the world.</source>
+        <target>Página principal de empresa ficticia que apuesta por el trabajo remoto para coordinarse y llevar a cabo sus funciones desde cualquier parte del mundo.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3146705747602400127" datatype="html">
@@ -177,7 +190,15 @@
         <target>Listado de Trabajos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="368835799362192974" datatype="html">
+        <source>This web page shows a list of 10 jobs, which can be filtered by four different characteristics: role, level, technologies and tools used. To perform this filtering just click on one of the buttons located on the right side of the card. In addition, it has been programmed to work with any initial number of jobs.</source>
+        <target>Esta página web muestra un listado de 10 trabajos, que pueden ser filtrados por cuatro características distintas: rol, nivel, tecnologías y herramientas usadas. Para realizar este filtrado basta con pulsar uno de los botones situados en la parte de la derecha de la tarjeta. Además, se ha programado para que el número total de trabajos sea escalable.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5995219808737353175" datatype="html">
@@ -185,7 +206,15 @@
         <target>Proyecto Final (TFT)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58878411845453059" datatype="html">
+        <source>This was my final degree work. The main objective of this project is to provide the Research Unit of the Insular University Hospital Complex Materno-Infantil with a web application for filtering genetic variants that facilitates the detection of those that cause or may cause pathologies in patients, thus being able to prevent them or personalize the treatment received by each of them.</source>
+        <target>Este fue mi trabajo de fin de grado. Su objetivo principal es proporcionar a la Unidad de Investigación del Complejo Hospitalario Universitario Insular Materno-Infantil una aplicación web de filtrado de variantes genéticas que facilite la detección de aquellas que causan o pueden causar patologías en los pacientes, pudiendo así prevenirlas o personalizar el tratamiento que recibe cada uno de ellos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
     </body>
