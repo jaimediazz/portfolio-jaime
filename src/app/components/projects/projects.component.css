@@ -84,3 +84,9 @@ h1 {
     background-color: hsl(180, 14%, 20%);
     border-radius: 10px;
 }
+
+/* EVENTS */
+
+img:hover {
+    opacity: 0.7;
+}
