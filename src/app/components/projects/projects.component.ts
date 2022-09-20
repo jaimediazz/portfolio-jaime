@@ -8,20 +8,24 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   slides: any[] = [
     {
-      'img': 'assets/ip-address-tracker.PNG',
-      'alt': 'Ip Address Tracker'
+      img: "assets/ip-address-tracker.PNG",
+      title: $localize `Ip Address Tracker`,
+      technologies: "Angular | Typescript"
     },
     {
-      'img': 'assets/remote-work.PNG',
-      'alt': 'Remote Work'
+        img: "assets/remote-work.PNG",
+        title: $localize `Remote Work`,
+        technologies: "Angular | Typescript"
     },
     {
-      'img': 'assets/job-listing.PNG',
-      'alt': 'job-listing'
+        img: "assets/job-listing.PNG",
+        title: $localize `Job Listing`,
+        technologies: "Angular | Typescript"
     },
     {
-      'img': 'assets/TFT.png',
-      'alt': 'tft'
+        img: "assets/TFT.png",
+        title: $localize `Final Project`,
+        technologies: "Angular | Typescript"
     }
   ];
   slideIndex: number = 0;

@@ -21,7 +21,7 @@
           <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-      </trans-unit>      
+      </trans-unit>
       <trans-unit id="2826581353496868063" datatype="html">
         <source>Language</source>
         <target>Idioma</target>
@@ -38,28 +38,20 @@
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5190825892106392539" datatype="html">
-        <source>Spanish</source>
-        <target>Español</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/main-view/main-view.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5866254605255506989" datatype="html">
-        <source>English</source>
-        <target>Inglés</target>
+      <trans-unit id="5641976480367412774" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/es/&quot;&gt;"/>Spanish<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/es/&quot;&gt;"/>Español<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="6618224375014860186" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/en/&quot;&gt;"/>English<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/en/&quot;&gt;"/>Inglés<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/main-view/main-view.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1906138298472348520" datatype="html">
@@ -134,17 +126,24 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7091571651222742304" datatype="html">
-        <source>Projects</source>
-        <target>Proyectos</target>
+      <trans-unit id="5190825892106392539" datatype="html">
+        <source>Spanish</source>
+        <target>Español</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="sourcefile">src/app/components/main-view/main-view.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="864762458671467125" datatype="html">
-        <source>Ip Tracker</source>
-        <target>Ip Tracker</target>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <target>Inglés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main-view/main-view.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ slides[slideIndex].title }}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
           <context context-type="linenumber">20</context>
@@ -152,10 +151,41 @@
       </trans-unit>
       <trans-unit id="7732534083352154984" datatype="html">
         <source>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio exercitationem dolorum rerum amet ratione suscipit, numquam aperiam quo veritatis, natus eos velit esse cum magni hic. Voluptatem, accusamus magnam!</source>
-        <target>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio exercitationem dolorum rerum amet ratione suscipit, numquam aperiam quo veritatis, natus eos velit esse cum magni hic. Voluptatem, accusamus magnam!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
           <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5290484294217156294" datatype="html">
+        <source>Ip Address Tracker</source>
+        <target>Rastreador de Direcciones IP</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2163353360097366252" datatype="html">
+        <source>Remote Work</source>
+        <target>Trabajo Remoto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3146705747602400127" datatype="html">
+        <source>Job Listing</source>
+        <target>Listado de Trabajos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5995219808737353175" datatype="html">
+        <source>Final Project</source>
+        <target>Proyecto Final (TFT)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
     </body>
