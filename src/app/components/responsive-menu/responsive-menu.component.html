@@ -1,11 +1,27 @@
 <div class="container">
-<!--     <button (click)="closeMenu()">
+    <button (click)="closeMenu()">
         <img src="assets/icon-close-menu.svg" alt="close menu">
-    </button> -->
-    <nav class="nav-center">
+    </button>
+    <nav class="nav-left">
         <ul class="nav-list">
-            <li class="nav-list-item"><a href="#">Login</a></li>
-            <li class="nav-list-item nav-item-border"><a href="#">Register</a></li>            
+            <li class="nav-list-item">
+                <a i18n routerLink="/" (click)="closeMenu()">Home</a>
+            </li>
+            <li class="nav-list-item">
+                <a i18n routerLink="/projects" (click)="closeMenu()">Projects</a>
+            </li>   
+            <li class="nav-list-item nav-dropdown">
+                <a (click)="showCompanyInfo = !showCompanyInfo">Language</a>
+                <img src="assets/icon-arrow-down.svg" alt="arrow down" (click)="showCompanyInfo = !showCompanyInfo">
+                <ul *ngIf="showCompanyInfo" class="nav-list dropdown-menu">
+                    <li i18n class="dropdown-item" (click)="closeMenu()">
+                        <a href="/es/">Spanish</a>
+                    </li>
+                    <li i18n class="dropdown-item" (click)="closeMenu()">
+                        <a href="/en/">English</a>
+                    </li>
+                </ul>                       
+            </li>                     
         </ul>
     </nav>        
 </div>

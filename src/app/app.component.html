@@ -1,33 +1,49 @@
 <div id="app">
-  <nav class="navBar">
+  <div id="nav">
     <div id="logo">
       <div id="circle">
         <span style="font-family: 'Montserrat', sans-serif; font-weight: bold;">J</span>
       </div>
     </div>
-    <ul id="navElements">
-      <li class="nav-list-item">
-        <a i18n routerLink="/">Home</a>
-      </li> 
-      <li class="nav-list-item">
-        <a i18n routerLink="/projects">Projects</a>
-      </li>
-      <li class="nav-list-item nav-dropdown">
-        <a i18n href="" style="pointer-events: none">Language</a>
-        <img src="assets/icon-arrow-down.svg" alt="arrow down" i18n-alt>
-        <ul class="dropdown-menu">
-          <li i18n class="dropdown-item">
-            <a href="/es/">Spanish</a>
-          </li>
-          <li i18n class="dropdown-item">
-            <a href="/en/">English</a>
-          </li>
-        </ul>
-      </li>
-      <!-- <li type="li">
-        <a routerLink="/contact">Contact</a>
-      </li> -->
-    </ul>
-  </nav>  
+    <nav class="navBar">
+      <ul id="navElements">
+        <li class="nav-list-item">
+          <a i18n routerLink="/">Home</a>
+        </li> 
+        <li class="nav-list-item">
+          <a i18n routerLink="/projects">Projects</a>
+        </li>
+        <li class="nav-list-item nav-dropdown">
+          <a i18n href="" style="pointer-events: none">Language</a>
+          <img src="assets/icon-arrow-down.svg" alt="arrow down" i18n-alt>
+          <ul class="dropdown-menu">
+            <li i18n class="dropdown-item">
+              <a href="/es/">Spanish</a>
+            </li>
+            <li i18n class="dropdown-item">
+              <a href="/en/">English</a>
+            </li>
+          </ul>
+        </li>
+        <!-- <li type="li">
+          <a routerLink="/contact">Contact</a>
+        </li> -->
+      </ul>
+    </nav>
+
+    <!-- RESPONSIVE MENU -->
+    <div class="hamburger">
+      <button (click)="toggleMenu()">
+        <img src="assets/icon-menu.svg" alt="hamburger">
+      </button>
+    </div>
+  
+    <app-responsive-menu 
+      *ngIf="showMenu" 
+      class="menuResponsive"
+      [showMenu]="showMenu"
+      (closeMenuEvent)="toggleMenu()"></app-responsive-menu>  
+  </div>
+
   <router-outlet></router-outlet>
 </div>

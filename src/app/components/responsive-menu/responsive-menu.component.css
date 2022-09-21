@@ -1,0 +1,54 @@
+button {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 2em;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* LAYOUT */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-item {
+    margin-bottom: 1em;
+}
+
+.nav-dropdown a {
+    margin-right: .5em;
+    position: relative;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+/* .nav-center {
+    margin: 2em auto 0;
+    text-align: center;
+} */
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+}
+
+.dropdown-item {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

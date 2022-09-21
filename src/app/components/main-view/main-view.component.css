@@ -91,3 +91,24 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    #description {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .name {
+        margin-left: 0;
+    }
+
+    #info {
+        justify-content: space-evenly;
+    }
+
+    #footer {
+        width: 90%;
+    }
+}

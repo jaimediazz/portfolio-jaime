@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-responsive-menu',
   templateUrl: './responsive-menu.component.html',
   styleUrls: ['./responsive-menu.component.css']
 })
-export class ResponsiveMenuComponent implements OnInit {
+export class ResponsiveMenuComponent {
+  showFeatures: boolean = false;
+  showCompanyInfo: boolean = false;
+  
+  @Input() showMenu: boolean = false;
 
-  constructor() { }
+  @Output() closeMenuEvent = new EventEmitter();
 
-  ngOnInit(): void {
+  closeMenu() {
+    this.closeMenuEvent.emit();
   }
 
 }
