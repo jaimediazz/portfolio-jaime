@@ -8,6 +8,7 @@ import { MainViewComponent } from './components/main-view/main-view.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ResponsiveMenuComponent } from './components/responsive-menu/responsive-menu.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ResponsiveMenuComponent } from './components/responsive-menu/responsive
     MainViewComponent,
     ContactComponent,
     ProjectsComponent,
-    ResponsiveMenuComponent
+    ResponsiveMenuComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
