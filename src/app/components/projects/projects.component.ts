@@ -22,6 +22,13 @@ export class ProjectsComponent {
       url: "https://rock-paper-scissors-jaimediazz.vercel.app/"
     },
     {
+      img: "assets/connect-four-game.PNG",
+      title: "Connect 4 Game",
+      description: "In this website you can play Connect Four games against another human being (alternating turns on the same computer).",
+      technologies: "Angular | Typescript",
+      url: "https://connect-four-game-jaimediazz.vercel.app/"      
+    },
+    {
       img: "assets/remote-work.PNG",
       title: $localize `Remote Work`,
       description: $localize `Landing page of a fictitious company that bets on remote work to coordinate and carry out its functions from anywhere in the world.`,
