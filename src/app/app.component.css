@@ -3,6 +3,10 @@ p {
     cursor: pointer;
 }
 
+.grey-out-background {
+    filter: grayscale(35%);
+}
+
 /* LAYOUT */
 
 #app {
