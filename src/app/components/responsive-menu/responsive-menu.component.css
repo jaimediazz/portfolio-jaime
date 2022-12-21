@@ -8,6 +8,10 @@ nav a {
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-dropdown img {
+    transition: transform .2s;
+}
+
 /* LAYOUT */
 
 .container {
@@ -51,4 +55,10 @@ nav a {
 a {
     text-decoration: none;
     color: #000;
+}
+
+/* EVENTS */
+
+.nav-dropdown-clicked {
+    transform: rotate(180deg) scale(1.25);
 }

@@ -7,6 +7,10 @@ p {
     filter: grayscale(35%);
 }
 
+.nav-dropdown img {
+    transition: transform .2s;
+}
+
 /* LAYOUT */
 
 #app {
@@ -123,6 +127,12 @@ a {
 
 .hamburger {
     display: none;
+}
+
+/* EVENTS */
+
+.nav-dropdown:hover img {
+    transform: rotate(180deg);
 }
 
 /* MEDIA QUERIES */

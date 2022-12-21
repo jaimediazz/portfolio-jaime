@@ -12,7 +12,11 @@
             </li>   
             <li class="nav-list-item nav-dropdown">
                 <a (click)="showCompanyInfo = !showCompanyInfo">Language</a>
-                <img src="assets/icon-arrow-down.svg" alt="arrow down" (click)="showCompanyInfo = !showCompanyInfo">
+                <img 
+                    src="assets/icon-arrow-down.svg" 
+                    alt="arrow down" 
+                    [ngClass]="showCompanyInfo ? 'nav-dropdown-clicked' : ''"
+                    (click)="showCompanyInfo = !showCompanyInfo">
                 <ul *ngIf="showCompanyInfo" class="nav-list dropdown-menu">
                     <li i18n class="dropdown-item" (click)="closeMenu()">
                         <a href="/es/">Spanish</a>
