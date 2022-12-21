@@ -50,7 +50,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/responsive-menu/responsive-menu.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6618224375014860186" datatype="html">
@@ -61,7 +61,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/responsive-menu/responsive-menu.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1906138298472348520" datatype="html">
@@ -187,46 +187,60 @@
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7120356327832123743" datatype="html">
+        <source>Connect 4 Game</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3591713982796180434" datatype="html">
+        <source>In this website you can play Connect Four games against another human being (alternating turns on the same computer).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2163353360097366252" datatype="html">
         <source>Remote Work</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7283575751804758071" datatype="html">
         <source>Landing page of a fictitious company that bets on remote work to coordinate and carry out its functions from anywhere in the world.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3146705747602400127" datatype="html">
         <source>Job Listing</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="368835799362192974" datatype="html">
         <source>This web page shows a list of 10 jobs, which can be filtered by four different characteristics: role, level, technologies and tools used. To perform this filtering just click on one of the buttons located on the right side of the card. In addition, it has been programmed to work with any initial number of jobs.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5995219808737353175" datatype="html">
         <source>Final Project</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="58878411845453059" datatype="html">
         <source>This was my final degree work. The main objective of this project is to provide the Research Unit of the Insular University Hospital Complex Materno-Infantil with a web application for filtering genetic variants that facilitates the detection of those that cause or may cause pathologies in patients, thus being able to prevent them or personalize the treatment received by each of them.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
     </body>

@@ -23,8 +23,8 @@ export class ProjectsComponent {
     },
     {
       img: "assets/connect-four-game.PNG",
-      title: "Connect 4 Game",
-      description: "In this website you can play Connect Four games against another human being (alternating turns on the same computer).",
+      title: $localize `Connect 4 Game`,
+      description: $localize `In this website you can play Connect Four games against another human being (alternating turns on the same computer).`,
       technologies: "Angular | Typescript",
       url: "https://connect-four-game-jaimediazz.vercel.app/"      
     },

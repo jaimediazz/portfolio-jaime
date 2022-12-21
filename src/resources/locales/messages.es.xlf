@@ -55,7 +55,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/responsive-menu/responsive-menu.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6618224375014860186" datatype="html">
@@ -67,7 +67,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/responsive-menu/responsive-menu.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1906138298472348520" datatype="html">
@@ -209,12 +209,28 @@
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7120356327832123743" datatype="html">
+        <source>Connect 4 Game</source>
+        <target>Conecta 4</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3591713982796180434" datatype="html">
+        <source>In this website you can play Connect Four games against another human being (alternating turns on the same computer).</source>
+        <target>En esta página web puedes jugar a Conecta 4 contra otra persona (alternando turnos en el mismo ordenador).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2163353360097366252" datatype="html">
         <source>Remote Work</source>
         <target>Trabajo Remoto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7283575751804758071" datatype="html">
@@ -222,7 +238,7 @@
         <target>Página principal de empresa ficticia que apuesta por el trabajo remoto para coordinarse y llevar a cabo sus funciones desde cualquier parte del mundo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3146705747602400127" datatype="html">
@@ -230,7 +246,7 @@
         <target>Listado de Trabajos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="368835799362192974" datatype="html">
@@ -238,7 +254,7 @@
         <target>Esta página web muestra un listado de 10 trabajos, que pueden ser filtrados por cuatro características distintas: rol, nivel, tecnologías y herramientas usadas. Para realizar este filtrado basta con pulsar uno de los botones situados en la parte de la derecha de la tarjeta. Además, se ha programado para que el número total de trabajos sea escalable.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5995219808737353175" datatype="html">
@@ -246,7 +262,7 @@
         <target>Proyecto Final (TFT)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="58878411845453059" datatype="html">
@@ -254,7 +270,7 @@
         <target>Este fue mi trabajo de fin de grado. Su objetivo principal es proporcionar a la Unidad de Investigación del Complejo Hospitalario Universitario Insular Materno-Infantil una aplicación web de filtrado de variantes genéticas que facilite la detección de aquellas que causan o pueden causar patologías en los pacientes, pudiendo así prevenirlas o personalizar el tratamiento que recibe cada uno de ellos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/projects/projects.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
     </body>
