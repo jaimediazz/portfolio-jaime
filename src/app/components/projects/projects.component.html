@@ -22,6 +22,9 @@
             <h3 i18n>{{ slides[slideIndex].title }}</h3>
             <p i18n>{{ slides[slideIndex].description }}</p>
             <p>{{ slides[slideIndex].technologies }}</p>
+            <button *ngIf="slides[slideIndex].url !== ''">
+                <a i18n [href]="slides[slideIndex].url" target="_blank">Access project</a>
+            </button>
         </div>
     </div>
 </div>

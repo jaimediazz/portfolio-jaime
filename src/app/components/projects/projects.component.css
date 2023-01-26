@@ -36,32 +36,46 @@ h1 {
     width: 35%;
 }
 
+#info button {
+    /* background-image: linear-gradient(to left,#0C97FA,#16E1F5) /* #6C9EFA ; */
+    background-image: linear-gradient(to left, #5ECDE1, #2CAEE2); /*#6C9EFA ; */
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 3px 1px grey;
+    transition: scale .5s;
+}
+
+#info a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
 .carousel-item {
     position: relative;
 }
 
-#prev {
+#prev, #next {
     position: absolute;
     top: 50%;
-    left: -15px;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
     color: white;
     border-color: hsl(180, 14%, 20%);
     background-color: hsl(180, 14%, 20%);
+    transition: transform .5s;
+}
+
+#prev {
+    left: -15px;
 }
 
 #next {
-    position: absolute;
-    top: 50%;
     right: -15px;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    color: white;
-    border-color: hsl(180, 14%, 20%);
-    background-color: hsl(180, 14%, 20%);
 }
 
 #dot-container {
@@ -89,7 +103,21 @@ h1 {
 /* EVENTS */
 
 img:hover {
-    opacity: 0.7;
+    opacity: 0.75;
+}
+
+#prev:hover {
+    cursor: pointer;
+    transform: translateX(-4px);
+}
+
+#next:hover {
+    cursor: pointer;
+    transform: translateX(4px);
+}
+
+#info button:hover {
+    scale: 1.03;
 }
 
 /* MEDIA QUERIES */

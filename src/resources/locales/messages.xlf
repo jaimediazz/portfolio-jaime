@@ -159,6 +159,13 @@
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3631128488724936844" datatype="html">
+        <source>Access project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5290484294217156294" datatype="html">
         <source>Ip Address Tracker</source>
         <context-group purpose="location">
